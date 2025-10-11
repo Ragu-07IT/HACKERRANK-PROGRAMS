@@ -1,0 +1,30 @@
+Problem Statement
+
+Write a program that displays the message "Hello, World!" on the screen.
+
+Description
+
+The objective of this problem is to help beginners become familiar with the basic structure of a program in their chosen programming language. This includes:
+
+Understanding how to write the minimal code required to output text.
+Learning the correct syntax for printing messages to the console.
+Gaining confidence in setting up and running a program successfully.
+Input Format
+
+No input is required for this program.
+Output Format
+
+The program should output the following message exactly:
+
+Hello, World!
+
+Sample Output 0
+
+Hello, World!
+
+SOLUTION:
+#include <stdio.h>
+int main() {
+    printf("Hello, World!");
+    return 0;
+}
