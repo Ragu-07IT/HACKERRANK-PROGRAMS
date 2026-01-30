@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main(){
+    char a;
+    int x;
+    float y;
+    double z;
+    scanf("%c %d %f %lf" ,&a ,&x, &y, &z);
+    printf("%c %d %.2f %.6lf", a ,x ,y ,z);
+    return 0;
+}
