@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main() {
+    float Cel,Far;
+    scanf("%f",&Cel);
+    Far=(Cel*9/5)+32;
+    printf("%.2f",Far);
+
+    return 0;
+}
