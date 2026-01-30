@@ -1,0 +1,44 @@
+#include <stdio.h>
+
+int main() {
+    int amount;
+    int  x, y, z, p,q, r, s, t;
+
+    scanf("%d", &amount);
+
+
+    x = amount / 500;
+    amount %= 500;
+
+    y = amount / 100;
+    amount %= 100;
+
+    z = amount / 50;
+    amount %= 50;
+
+    p = amount / 20;
+    amount %= 20;
+
+    q = amount / 10;
+    amount %= 10;
+
+    r = amount / 5;
+    amount %= 5;
+
+    s = amount / 2;
+    amount %= 2;
+
+    t= amount;
+
+
+    if (x> 0)  printf("500: %d\n", x);
+    if (y > 0)  printf("100: %d\n", y);
+    if (z > 0)   printf("50: %d\n", z);
+    if (p > 0)   printf("20: %d\n", p);
+    if (q > 0)   printf("10: %d\n", q);
+    if (r > 0)    printf("5: %d\n", r);
+    if (s > 0)    printf("2: %d\n", s);
+    if (t > 0)    printf("1: %d\n", t);
+
+    return 0;
+}
