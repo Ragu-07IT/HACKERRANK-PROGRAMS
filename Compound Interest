@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main() {
+    int P,T;
+    double CI;
+    float R;
+    scanf("%d %f %d ",&P,&R,&T);
+    CI=(double)P*(pow(1+R/100,T))-P;
+    printf("%.2lf",CI);
+
+    return 0;
+}
