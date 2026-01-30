@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main(){
+    float r, area, perimeter, a,ar,pr,l, w, aa, pp;
+    scanf("%f",&r);
+    scanf("%f",&a);
+    scanf("%f %f ",&l, &w);
+    area=3.1416*r*r;
+    perimeter=2*3.1416*r;
+    ar=a*a;
+    pr=4*a;
+    aa=l*w;
+    pp=2*(l+w);
+    printf("Circle: %.2f %.2f  \nSquare: %.2f %.2f  \nRectangle: %.2f %.2f",area,perimeter,ar,pr,aa, pp);
+    return 0;
+    
+}
