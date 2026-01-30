@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main() {
+    int cm;
+    double m,km;
+    scanf("%d",&cm);
+    m=(double)cm/100;
+    km=(double)cm/100000;
+    printf("%.2f %.2f ",m,km);
+
+    return 0;
+}
