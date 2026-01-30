@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main(){
+    int BS,h,da;
+    float GS;
+    scanf("%d",&BS);
+    if(BS <= 10000){
+        h=BS*0.2;
+        da=BS*0.3;
+        GS=BS+h+da;
+        printf("%.2f",GS);
+    }
+    else if(BS<=20000){
+        h=BS*0.25;
+        da=BS*0.4;
+        GS=BS+h+da;
+        printf("%.2f",GS);
+    }
+    else{
+        h=BS*0.3;
+        da=BS*0.5;
+        GS=BS+h+da;
+        printf("%.2f",GS);
+    }
+    return 0;
+}
