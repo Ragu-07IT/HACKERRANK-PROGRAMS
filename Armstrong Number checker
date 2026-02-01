@@ -1,0 +1,27 @@
+#include <stdio.h>
+int main() {
+    int num,org,temp,a,count=0,arm=0;
+    scanf("%d",&num);
+    temp=num;
+    org=num;
+    if(temp<0)
+        temp=-temp;
+    if(temp==0)
+        count=1;
+    else{
+        while(temp!=0){
+            temp=temp/10;
+            count++;
+        }
+    }
+     while(num>0){
+        a=num%10;
+        arm+=pow(a,count);
+        num=num/10;
+    }
+    if(arm==org)
+        printf("Armstrong");
+    else
+        printf("Not Armstrong");
+    return 0;
+}
