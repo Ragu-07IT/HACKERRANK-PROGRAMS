@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int *ptr1=(int*)malloc(sizeof(int));
+    int *ptr2=(int*)malloc(sizeof(int));
+    scanf("%d",ptr1);
+    scanf("%d",ptr2);
+    *ptr1=*ptr1 + *ptr2;
+    *ptr2=*ptr1 - *ptr2;
+    *ptr1=*ptr1- *ptr2;
+    printf("%d %d",*ptr1,*ptr2);
+    return 0;
+}
